@@ -1,4 +1,4 @@
-# Sliding-game-Java
+# Sliding game Java
 
 Este projeto é uma implementação do clássico jogo **Sliding Puzzle** desenvolvida em **Java**, utilizando os princípios de **Programação Orientada a Objetos (POO)**.
 
