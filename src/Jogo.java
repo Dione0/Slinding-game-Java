@@ -1,7 +1,14 @@
+import java.util.scanner;
+
 public class Jogo {
-    //Classe Jogo:
-    //Responsável por controlar toda a lógica da partida, coordenando a interação entre jogador, tabuleiro, movimentos e ranking.
-    //Retorna: Resultado, pontuação.
-
-
+        private Jogador jogador;
+        private Tabuleiro tabuleiro;
+        private Movimento movimento;
+        private Ranking ranking;
+        private Scanner scanner;
+        public Jogo(Ranking ranking){
+            this.ranking = ranking;
+            this.scanner = new Scanner(System.in);
+            this.movimento = new Movimento();
+        }
 }
